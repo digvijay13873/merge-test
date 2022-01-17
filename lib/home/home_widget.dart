@@ -124,6 +124,13 @@ class _HomeWidgetState extends State<HomeWidget> with TickerProviderStateMixin {
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Container(
+              width: 100,
+              height: 100,
+              decoration: BoxDecoration(
+                color: Color(0xFFEEEEEE),
+              ),
+            ),
             Image.asset(
               'assets/images/ff_logo_white.png',
               width: 140,
